@@ -1,0 +1,85 @@
+# view res/layout/model.xml #generated:143
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_capture_content.xml #generated:25
+-keep class com.google.zxing.client.BarCodeScanView { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.google.zxing.client.BarcodeCaptureActivity { <init>(...); }
+
+# view res/layout/activity_capture_content.xml #generated:2
+-keep class com.google.zxing.client.ControllerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.xiaotian.framework.ActivityFullscreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.xiaotian.framework.activity.test.ActivityPattern { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.xiaotian.framework.receiver.BroadcastReceiverNetworkState { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.xiaotian.framework.service.BRToast { <init>(...); }
+
+# view res/layout/view_scroll_table_simple_template.xml #generated:71
+-keep class com.xiaotian.framework.view.ViewHorizontalScrollView { <init>(...); }
+
+# view res/layout/activity_gesture_viewpage.xml #generated:6
+-keep class com.xiaotian.framework.view.ViewPagerTouchable { <init>(...); }
+
+# view res/layout/view_scroll_table_simple_template.xml #generated:35
+-keep class com.xiaotian.framework.view.ViewScrollView { <init>(...); }
+
+# view res/layout/model_view_table_scrollable_xiaotian.xml #generated:49
+-keep class com.xiaotian.framework.view.ViewTableScrollAble$HorizontalScrollView { <init>(...); }
+
+# view res/layout/model_view_table_scrollable_xiaotian.xml #generated:43
+-keep class com.xiaotian.framework.view.ViewTableScrollAble$ScrollView { <init>(...); }
+
+# view res/layout/model_view_table_scrollable_xiaotian.xml #generated:21
+-keep class com.xiaotian.framework.view.ViewTableScrollAble$TitleViewColumn { <init>(...); }
+
+# view res/layout/model_view_table_scrollable_xiaotian.xml #generated:35
+-keep class com.xiaotian.framework.view.ViewTableScrollAble$TitleViewRow { <init>(...); }
+
+# view res/layout/model_view_table_scrollable_xiaotian.xml #generated:57
+-keep class com.xiaotian.framework.view.ViewTableScrollAble$ViewTable { <init>(...); }
+
+# view res/layout/model_view_table_scrollable_xiaotian.xml #generated:14
+-keep class com.xiaotian.framework.view.ViewTableScrollAble$ViewTopLeft { <init>(...); }
+
+# view res/layout/model.xml #generated:83
+-keep class com.xiaotian.framework.widget.pattern.ViewLockPattern { <init>(...); }
+
+# onClick res/layout/view_scroll_table_simple_template.xml #generated:57
+-keepclassmembers class * { *** onClickAddCode(...); }
+
+# onClick res/layout/view_scroll_table_simple_template.xml #generated:87
+-keepclassmembers class * { *** onClickAddColor(...); }
+
+# onClick res/layout/activity_fullscreen_xiaotian.xml #generated:33
+-keepclassmembers class * { *** onClickDummyButton(...); }
+
+# onClick res/layout/dialog_confirm_xiaotian.xml #generated:50
+-keepclassmembers class * { *** onClickNagetive(...); }
+
+# onClick res/layout/dialog_confirm_xiaotian.xml #generated:59
+-keepclassmembers class * { *** onClickPositive(...); }
+
+# onClick res/layout/model.xml #generated:110
+# onClick res/layout/model.xml #generated:126
+-keepclassmembers class * { *** onClickTabBarItem(...); }
+
+# onClick res/layout/activity_capture_content.xml #generated:40
+-keepclassmembers class * { *** setFlashlightMode(...); }
+
+# onClick res/layout/model_view_toptoolbar_xiaotian.xml #generated:11
+-keepclassmembers class * { *** toolbarBackOnclick(...); }
+
+# onClick res/layout/model_view_toptoolbar_xiaotian.xml #generated:42
+-keepclassmembers class * { *** toolbarForwardOnclick(...); }
+
+# onClick res/layout/model_view_toptoolbar_xiaotian.xml #generated:26
+-keepclassmembers class * { *** toolbarTitleOnclick(...); }
+
